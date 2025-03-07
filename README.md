@@ -1,2 +1,27 @@
-# sql_data_warehouse_project
-Building a data warehouse with SQL server (including ETL, data modeling and analytics)
+#S SQL Data Warehouse Project
+
+Welcome to my **first Data Warehouse Project**!
+
+This project is made possible through **Data with Baraa**. In this project, I created a modern data warehouse using SQL server.
+
+The Medallion Architecture is the approach use to build the data warehouse. Three layers are created, i.e., Bronze, Silver and Gold.
+
+## Project requirements
+
+### Building the Data Warehouse
+
+### Objectives
+
+Building a data warehouse with SQL server (including ETL, data modeling and analytics) to consolidate sales data, enabling analytical reporting and informed decision-making.
+
+### Specifications
+- ** Data Sources**: Data are from the ERP and CRM systems in CSV format.
+- ** Data Quality**: Clean and transform to ensure data quality prior to analysis
+- ** Integration**: Data from both sources will be consolidated into a a single, user-friendly data model to optimize analytical queries.
+- ** Scope**: Latest dataset only, no historization of data.
+- ** Documentation**: Clear documentation of the data model to support the analytics team and business stakeholders.
+
+
+## License: MIT
+
+
