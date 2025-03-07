@@ -20,8 +20,10 @@ Building a data warehouse with SQL server (including ETL, data modeling and anal
 - ** Documentation**: Clear documentation of the data model to support the analytics team and business stakeholders.
 
 
-## License: MIT
+## License: 
 
-## Special Mention:
+MIT
+
+### Special Mention:
 
 This project is made possible through **Data with Baraa**. Baraa is the best and the most underrated SQL instructor I have ever followed. His courses surpass the paid MOOCs that are available (which I am currently enrolled at). The best thing is that his courses are FREE on Youtube. 
