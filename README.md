@@ -1,10 +1,8 @@
-#S SQL Data Warehouse Project
+# SQL Data Warehouse Project
 
 Welcome to my **first Data Warehouse Project**!
 
-This project is made possible through **Data with Baraa**. In this project, I created a modern data warehouse using SQL server.
-
-The Medallion Architecture is the approach use to build the data warehouse. Three layers are created, i.e., Bronze, Silver and Gold.
+In this project, I created a modern data warehouse using SQL server. The Medallion Architecture is the approach use to build the data warehouse. Three layers are created, i.e., Bronze, Silver and Gold.
 
 ## Project requirements
 
@@ -24,4 +22,6 @@ Building a data warehouse with SQL server (including ETL, data modeling and anal
 
 ## License: MIT
 
+## Special Mention:
 
+This project is made possible through **Data with Baraa**. Baraa is the best and the most underrated SQL instructor I have ever followed. His courses surpass the paid MOOCs that are available (which I am currently enrolled at). The best thing is that his courses are FREE on Youtube. 
