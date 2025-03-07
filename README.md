@@ -2,7 +2,7 @@
 
 Welcome to my **first Data Warehouse Project**!
 
-In this project, I created a modern data warehouse using SQL server. The Medallion Architecture is the approach use to build the data warehouse. Three layers are created, i.e., Bronze, Silver and Gold.
+In this project, I created a modern data warehouse using SQL server. The Medallion Architecture is the approach used to build the data warehouse. Three layers are created, i.e., Bronze, Silver and Gold.
 
 ## Project requirements
 
