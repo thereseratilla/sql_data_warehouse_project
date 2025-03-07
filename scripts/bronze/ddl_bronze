@@ -7,8 +7,9 @@ Purpose:
 
   This script allows us to define (or redefine if already existed) the DDL structure of the tables in the Bronze Schema.
   Existing tables are dropped, and replaced.
-
+===========================================================================
 */
+
 
 IF OBJECT_ID ('bronze.crm_cust_info', 'U') IS NOT NULL
 	DROP TABLE bronze.crm_cust_info;
