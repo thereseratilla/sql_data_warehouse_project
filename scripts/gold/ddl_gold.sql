@@ -16,7 +16,14 @@ Usage:
 ===========================================================================
 */
 
--- 1. Creating the CUSTOMERS TABLE with all customer information --
+
+
+/* ============================================================================
+1. Creating the Dimension Table: CUSTOMERS 
+=========================================================================== */
+
+IF OBJECT_ID ('gold.dim_customers', 'U') IS NOT NULL
+	DROP TABLE gold.dim_customers;
 
 CREATE VIEW gold.dim_customers 
 AS
@@ -40,7 +47,12 @@ SELECT
 	ON ci.cst_key = la.cid;
 GO
 
--- 2. Creating the PRODUCTS TABLE with all product information --
+/*============================================================================
+2 Creating the Dimension Table: PRODUCTS
+=========================================================================== */
+	
+IF OBJECT_ID ('gold.dim_products', 'U') IS NOT NULL
+	DROP TABLE gold.dim_products;
 
 CREATE VIEW gold.dim_products
 AS
@@ -63,7 +75,11 @@ WHERE prd_end_dt IS NULL; -- Filter out all historical data, only current data
 GO
 
 
--- 3. Creating the FACT TABLE FOR SALES --
+/* ============================================================================
+3. Creating the FACT Table: SALES
+=========================================================================== */
+IF OBJECT_ID ('gold.fact_sales', 'U') IS NOT NULL
+	DROP TABLE gold.fact_sales;
 
 CREATE VIEW gold.fact_sales
 AS
