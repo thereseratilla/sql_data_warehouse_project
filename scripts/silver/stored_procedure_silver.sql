@@ -1,6 +1,6 @@
 /*
 ============================================================================
-STORED PROCEDURE: LOADING THE BRONZE LAYER
+STORED PROCEDURE: LOADING THE SILVER LAYER
 ===========================================================================
 
 Purpose: 
