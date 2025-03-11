@@ -10,7 +10,7 @@ Purpose:
 
   In this script, we:
   - First, truncate the silver tables before loading data.
-  - Insert the transsformed and cleaned data into the silver tables.
+  - Insert the transsformed and cleaned data from bronze into the silver tables.
 
 Parameters:
   None. 
