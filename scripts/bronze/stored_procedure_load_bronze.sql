@@ -14,8 +14,8 @@ Parameters:
   None. 
 
 After running the script, run the following query:
-
-EXEC bronze.load_bronze
+	
+	EXEC bronze.load_bronze
 
 ===========================================================================
 */
