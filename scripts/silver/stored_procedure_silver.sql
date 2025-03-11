@@ -16,7 +16,8 @@ Parameters:
   None. 
 
 After running the script, run the following query:
-  EXEC silver.load_silver;
+	
+	EXEC silver.load_silver;
 
 ===========================================================================
 */
